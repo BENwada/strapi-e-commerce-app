@@ -11,7 +11,6 @@ const Layout = () => {
   return (
     <div className="app">
       <Navbar />
-      <Slider />
       <Outlet />
       <Footer />
     </div>
