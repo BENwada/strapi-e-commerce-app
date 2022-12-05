@@ -5,7 +5,6 @@ import Home from "./pages/Home/Home";
 import Product from "./pages/Product/Product";
 import Products from "./pages/Products/Products";
 import "./app.scss";
-import Slider from "./components/Slider/Slider";
 
 const Layout = () => {
   return (
