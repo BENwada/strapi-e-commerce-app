@@ -70,7 +70,7 @@ const Product = () => {
                 dispatch(
                   addToCart({
                     id: data.id,
-                    title: data.attributes.desc,
+                    title: data.attributes.title,
                     desc: data.attributes.desc,
                     price: data.attributes.price,
                     img: data.attributes.img.data.attributes.url,
